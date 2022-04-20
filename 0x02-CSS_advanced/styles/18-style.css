@@ -246,6 +246,7 @@ a:active {
 .section{
   padding: var(--section-padding) ;
 }
+
 .section-header {
   text-align: var(--section-header-align);
   padding: var(--section-header-padding);
@@ -281,25 +282,25 @@ a:active {
   margin-right: auto;
 }
 
-.footer{
+.footer {
   padding: var(--footer-padding);
 }
 
-.navbar-menu{
+.navbar-menu {
   float: right;
 }
 
-.nav{
+.nav {
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
 }
 
-.nav .nav-item{
+.nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
-  font-size: var(--nav-item-font-size) ;
+  font-size: var(--nav-item-font-size);
   letter-spacing: var(--nav-item-letter-spacing);
   display: var(--nav-item-display);
   margin: var(--nav-item-margin);
