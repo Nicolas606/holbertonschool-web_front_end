@@ -165,7 +165,7 @@ template {
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
   --text-color: var(--color-black);
-  --font-family-base: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --font-family-base: "Open sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   --font-family-title: "Raleway", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
@@ -205,7 +205,7 @@ html {
   font-size: 62.5%;
 }
 
-body{
+body {
   color:var(--text-color);
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a:link {
-  color: #161616 ;
+  color: var(--text-color);
   text-decoration: none;
 }
 
@@ -239,12 +239,12 @@ a:active {
   display: none;
 }
 
-.card-category{
+.card-category {
   color: var(--color-primary);
 }
 
-.section{
-  padding: var(--section-padding) ;
+.section {
+  padding: var(--section-padding);
 }
 
 .section-header {
@@ -261,7 +261,7 @@ a:active {
   text-align: var(--section-footer-align);
 }
 
-.section-title{
+.section-title {
   font-family: var(--font-family-title);
   font-size: var(--font-size-xx-large);
   font-weight: var(--font-weight-bold);
@@ -269,7 +269,7 @@ a:active {
   color: var(--section-title-color);
 }
 
-.section-tagline{
+.section-tagline {
   color: var(--color-primary);
   font-family: var(--font-family-title);
   text-transform: var(--section-tagline-transform);
@@ -306,7 +306,7 @@ a:active {
   margin: var(--nav-item-margin);
 }
 
-.nav .nav.link{
+.nav .nav-link {
   display: block;
   padding: 0.5rem 1rem;
 }
