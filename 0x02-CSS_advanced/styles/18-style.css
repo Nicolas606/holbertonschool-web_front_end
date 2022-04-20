@@ -299,12 +299,17 @@ a:active {
 .nav-item{
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
-  size: var(--nav-item-font-size) ;
+  font-size: var(--nav-item-font-size) ;
   letter-spacing: var(--nav-item-letter-spacing);
   display: var(--nav-item-display);
   margin: var(--nav-item-margin);
 }
 
 .nav.link{
-  color: var(--nav-item-link-hover) ;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+  color: var(--nav-item-link-hover);
 }
