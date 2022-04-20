@@ -188,7 +188,7 @@ template {
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
   --text-color: var(--color-black);
-  --font-family-base: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --font-family-base: "Open sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   --font-family-title: "Raleway", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
@@ -217,11 +217,10 @@ template {
   --nav-item-display: inline-block;
   --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
+  --section-tagline-margin: 0;
 }
 
-*,
-*:before,
-*:after {
+*,*:before,*:after {
   box-sizing: border-box;
 }
 
@@ -238,18 +237,13 @@ body {
   line-height: var(--line-height-base);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
 
 a:link {
-  color: #161616;
+  color: var(--text-color);
   text-decoration: none;
 }
 
@@ -336,7 +330,7 @@ a:active {
   margin: var(--nav-item-margin);
 }
 
-.nav .nav.link {
+.nav .nav-link {
   display: block;
   padding: 0.5rem 1rem;
 }
